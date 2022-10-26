@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19 Statistics | Inform Yourself</title>
+    <script defer src="scripts/news.js"></script>
+    <script defer src="scripts/countryStatistics.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>  
+    
+    <div class="header">
+        <p class="title">Covid-19 Statistics</p>
+        <p class="description">Inform Yourself. Stay Safe!</p>
+    </div>
+
+    <div class="search">
+        <input type="text" class="search-bar" placeholder="Search Country">
+        <img src="images/magnify.png" class="search-img">
+    </div>
+    
+    <div class="countries-container">
+        <div class="country">
+            <img src="https://flagcdn.com/w320/ru.png">
+            <p class="country-name">Name: Russia</p>
+            <p class="new-cases">New Cases: 7.518</p>
+            <p class="new-deaths">New Deaths: 80</p>
+            <p class="serious-critical">Serious Critical Condition: 2.300</p>
+            
+            <div class="details-container">
+                <div class="more-info-header">
+                    <input type="checkbox" id="details">
+
+                    <label for='details' class="details-label">
+                        <div class="line1 line"></div>
+                        <div class="line2 line"></div>
+                    </label>
+                    <p>More Information</p>
+                </div>
+                
+    
+                <div class="hidden-info" id="hidden-inf">
+                    <p class="total-tests">Total Tests Done: 273.400.000</p>
+                    <p class="total-covid-cases">Total Covid-19 Cases: 21.394.360</p>
+                    <p class="total-deaths">Total Deaths: 389.790</p>
+                    <p class="infection-risk">Infection risk: 15%</p>
+                    <p class="population">Population: 146.078.940</p>
+                </div>
+            </div>
+            
+                
+        </div>
+    </div>
+    
+    <div class="news-container">
+
+    </div>
+
+</body>
+</html>

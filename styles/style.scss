@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import "layout/header.scss";
+@import "sections/search.scss";
+@import "sections/details.scss";
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    background-image: radial-gradient(circle, rgb(141, 139, 139),rgb(132, 95, 95)) ;
+    background-size: cover;
+    height: 100vh;
+}

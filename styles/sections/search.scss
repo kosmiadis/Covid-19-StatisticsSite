@@ -1,0 +1,25 @@
+div.search {
+    margin-top: 4rem;
+    align-self: center;
+    display: flex;
+    align-items: center;
+
+    & .search-bar {
+        height: 42px;
+        font-size: 100%;
+        border-radius: 30px;
+        border: none;
+        outline: none;
+        padding: 0rem 1.3rem;
+        background-color: rgba(255, 255, 255, 0.653)
+    }
+
+    & .search-img {
+        margin-left: 5px;
+        width: 40px;
+        height: 40px;
+        border-radius: 30px; 
+    }
+
+
+}
